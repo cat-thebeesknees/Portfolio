@@ -1,0 +1,58 @@
+/*media links*/
+
+ul.socials li {
+    list-style-type: none;
+    text-decoration: none;
+    vertical-align: top;
+    flex-direction: column;
+    padding: 12px;
+    margin: 20px;
+    /* float: right; */
+
+
+}
+
+.bi {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    float: right;
+    padding: 20px;
+    font-size: 30px;
+    vertical-align: top;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+
+}
+
+.row-2 {
+    display: contents;
+}
+
+.bi-discord {
+    color: aquamarine;
+
+}
+
+.bi-github {
+
+    color: fuchsia;
+}
+
+.bi-linkedin {
+
+    color: royalblue;
+
+}
+
+
+
+
+
+a:hover,
+a:active {
+    background-color: darkred;
+    color: white;
+}
