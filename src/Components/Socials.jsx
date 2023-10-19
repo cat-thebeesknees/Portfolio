@@ -1,3 +1,5 @@
+import "../Styles/Socials.css";
+
 const Socials = () => {
   return (
     <>
