@@ -1,9 +1,9 @@
-
-
 const RoutePaths = () => {
   return (
-    <div>RoutePaths</div>
-  )
-}
+  <>
+  <div className="route-container">RoutePaths</div>
+  </>
+  );  
+};
 
-export default RoutePaths
+export default RoutePaths;
