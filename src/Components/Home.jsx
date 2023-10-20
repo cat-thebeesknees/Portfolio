@@ -9,13 +9,13 @@ const Home = () => {
         Home
         <div id="logo-img">
           <img src="logo.png" alt="logo-img" width="210" height="180"></img>
-           </div>
-           <div id="socials-container">
-            <Socials />
-            </div>
-           <div id="nav-container">
-           <NavBar />
-           </div>
+        </div>
+        <div id="socials-container">
+          <Socials />
+        </div>
+        <div id="nav-container">
+          <NavBar />
+        </div>
       </div>
     </>
   );
