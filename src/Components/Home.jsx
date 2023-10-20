@@ -1,6 +1,8 @@
 import NavBar from "./NavBar";
 import Socials from "./Socials";
+
 import "../Styles/Home.css";
+import Header from "./Header";
 
 const Home = () => {
   return (
@@ -8,7 +10,8 @@ const Home = () => {
       <div className="home-container">
         Home
         <div id="logo-img">
-          <img src="logo.png" alt="logo-img" width="210" height="180"></img>
+        <Header />
+         
         </div>
         <div id="socials-container">
           <Socials />
