@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import Resume from "./Resume";
 import NotFound from "./NotFound";
 import "../Styles/RoutePaths.css";
+import Profile from "./Me";
 const RoutePaths = () => {
   return (
   <>
@@ -17,6 +18,7 @@ const RoutePaths = () => {
     <Route path="/contact" element={<Contact />} />
     <Route path="/projects" element={<Projects />} />
     <Route path="/resume" element={<Resume />} />
+    <Route path="me" element={<Profile />} />
     <Route path="*" element={<NotFound />} />
   </Routes>
 </div>
