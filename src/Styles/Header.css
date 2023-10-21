@@ -1,0 +1,15 @@
+img#logo-img {
+  display: grid;
+  place-self: start start;
+}
+
+#img-logo {
+    img {
+        width: 210;
+        height: 180;
+    }
+}
+
+div {
+    display: grid;
+}
