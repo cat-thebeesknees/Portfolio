@@ -1,1 +1,19 @@
+h1.home-heading {
+    color: cornflowerblue;
+}
 
+div.gallery {
+    display: flex;
+}
+
+h3.home-subheading {
+    color: gold;
+    padding: 20px;
+    margin: 10px;
+}
+
+p.home-paragraph {
+    color: aquamarine;
+    padding: 20px;
+    margin: 10px;
+}
