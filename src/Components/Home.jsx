@@ -11,13 +11,15 @@ const Home = () => {
       <div className="home-container">
         <div id="logo-img">
           <Header />
-        </div>
-        <div id="socials-container">
+            </div>
+            <div id="socials-container">
           <Socials />
         </div>
+        <h1 className="home-heading">Catherine Hilton</h1>
+       
         <div id="nav-container">
           <NavBar />
-          <h1 className="home-heading">Catherine Hilton</h1>
+          </div>
           <Profile />
 
           <h3 className="home-subheading">Software Development Engineer</h3>
@@ -26,7 +28,7 @@ const Home = () => {
             your dreams, the first thing to meet you there will be fear. Nod.
             Keep walking.&rdquo;
           </p>
-        </div>
+        
       </div>
     </>
   );

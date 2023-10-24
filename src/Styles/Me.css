@@ -12,6 +12,9 @@ body.gallery{
     height:200px;
     transform-style:preserve-3d;
     animation:rotate 35s linear infinite;
+    justify-self: center;
+    padding: 10px;
+    margin: 10px;
   }
   
   @keyframes rotate{
