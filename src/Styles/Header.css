@@ -4,12 +4,25 @@ img#logo-img {
 }
 
 #img-logo {
-    img {
-        width: 210;
-        height: 180;
-    }
+  img {
+    width: 210;
+    height: 180;
+  }
 }
 
 div {
-    display: grid;
+  display: grid;
+}
+
+div#logo-img {
+  max-width: max-content;
+}
+
+div.header-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
 }

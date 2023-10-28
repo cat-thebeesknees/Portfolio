@@ -1,8 +1,19 @@
 ul#navUl {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav#navlinks {
+  max-width: fit-content;
+}
+
+div.nav-link {
+  color: darkred;
+}
+
+a {
+  color: darkred;
 }
