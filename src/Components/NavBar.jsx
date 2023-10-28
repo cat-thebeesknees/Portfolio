@@ -4,7 +4,7 @@ import "../Styles/NavBar.css";
 const NavBar = () => {
   return (
     <>
-      <div className="nav-container">
+      
         <nav id="navlinks">
           <ul id="navUl" style={{ listStyle: "none", padding: 5 }}>
             <div className="nav-link">
@@ -37,7 +37,7 @@ const NavBar = () => {
             </div>
           </ul>
         </nav>
-      </div>
+      
     </>
   );
 };

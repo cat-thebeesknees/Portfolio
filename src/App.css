@@ -1,5 +1,3 @@
-
-
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -69,7 +67,7 @@ button:focus-visible {
 }
 
 img {
-display: flex;
+  display: flex;
 }
 
 @media (prefers-color-scheme: light) {
