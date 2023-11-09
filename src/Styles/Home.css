@@ -32,8 +32,8 @@ p.home-paragraph {
   align-content: space-around;
 }
 .wrapper > div {
-  background-clip: text;
   -webkit-background-clip: text;
+  background-clip: text;
   color: #363833;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
@@ -76,7 +76,7 @@ h3.home-subheading {
     var(--light-shadow) 23%,
     var(--gold) 31%
   );
-  
+
   max-width: -moz-fit-content;
   max-width: fit-content;
   align-self: center;
