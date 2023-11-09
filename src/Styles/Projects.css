@@ -10,6 +10,7 @@ li#language-icon-item {
   color: #ffb338;
 
   transition: all 0.5s ease-in-out;
+  max-width: -moz-fit-content;
   max-width: fit-content;
   list-style: none;
   display: flex;
@@ -21,6 +22,7 @@ div.projects-container {
   align-content: flex-start;
   justify-content: flex-start;
   align-items: center;
+  max-width: -moz-fit-content;
   max-width: fit-content;
   margin: 10px;
   padding: 10px;

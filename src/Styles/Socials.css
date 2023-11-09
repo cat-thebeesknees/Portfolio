@@ -61,6 +61,7 @@ ul.socials {
   padding-bottom: 0;
 }
 div#socials-container {
+  max-width: -moz-fit-content;
   max-width: fit-content;
   align-self: center;
   justify-self: center;
@@ -72,6 +73,7 @@ div.socials-container {
   align-content: flex-end;
   justify-content: flex-end;
   align-items: center;
+  max-width: -moz-fit-content;
   max-width: fit-content;
   align-self: center;
   justify-self: center;
