@@ -23,6 +23,7 @@ p.home-paragraph {
   place-content: center;
   text-transform: uppercase;
   height: 3vh;
+  max-width: -moz-fit-content;
   max-width: fit-content;
   align-self: center;
   justify-self: center;
@@ -40,6 +41,7 @@ p.home-paragraph {
   grid-area: overlap;
   letter-spacing: 1px;
   -webkit-text-stroke: 3px transparent;
+  max-width: -moz-fit-content;
   max-width: fit-content;
   align-self: center;
   justify-self: center;
@@ -74,6 +76,8 @@ h3.home-subheading {
     var(--light-shadow) 23%,
     var(--gold) 31%
   );
+  
+  max-width: -moz-fit-content;
   max-width: fit-content;
   align-self: center;
   justify-self: center;
