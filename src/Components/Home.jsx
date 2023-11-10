@@ -3,7 +3,7 @@ import NavBar from "./NavBar";
 
 import "../Styles/Home.css";
 import Header from "./Header";
-import Profile from "./Me";
+
 
 const Home = () => {
   return (
@@ -19,7 +19,7 @@ const Home = () => {
         </div>
 
        
-        <Profile />
+        
       
         <h3 className="home-subheading">Software Development Engineer</h3>
         <p className="home-paragraph">
