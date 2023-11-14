@@ -1,13 +1,15 @@
-div.gallery {
-  display: flex;
+body {
+  height: 100%;
+  width: 100%;
 }
 
 p.home-paragraph {
-  color: rgb(72, 202, 228);
-  padding: 20px;
+  color: floralwhite;
+  padding: 10px;
   margin: 10px;
-  font-family: "Cinzel Decorative", cursive;
   font-size: 1.5em;
+  font-family: "Kavivanar", cursive;
+  text-shadow: 1px 1px black;
 }
 
 :root {
@@ -17,19 +19,21 @@ p.home-paragraph {
 }
 
 .wrapper {
-  background: radial-gradient(#272727, #1b1b1b);
+  background: rgb(0, 17, 28);
+  /* background: radial-gradient(#272727, #1b1b1b); */
   display: grid;
   grid-template-areas: "overlap";
   place-content: center;
   text-transform: uppercase;
-  height: 3vh;
+  height: 2vh;
   max-width: -moz-fit-content;
   max-width: fit-content;
   align-self: center;
   justify-self: center;
-  padding: 20px;
-  margin-bottom: 60px;
+  padding: 10px;
+  /* margin-bottom: 10px; */
   align-content: space-around;
+  height: 100%;
 }
 .wrapper > div {
   -webkit-background-clip: text;
@@ -37,14 +41,15 @@ p.home-paragraph {
   color: #363833;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
-  font-size: clamp(1em, 3vw, 4rem);
+  font-size: clamp(1em, 3vw, 3rem);
   grid-area: overlap;
   letter-spacing: 1px;
-  -webkit-text-stroke: 3px transparent;
+  -webkit-text-stroke: 2px transparent;
   max-width: -moz-fit-content;
   max-width: fit-content;
   align-self: center;
   justify-self: center;
+  font-size: 2.5rem;
 }
 div.bg {
   background-image: repeating-linear-gradient(
@@ -54,9 +59,15 @@ div.bg {
     var(--gold) 12%
   );
   color: transparent;
-  filter: drop-shadow(2px 5px 5px black);
+  filter: drop-shadow(1px 2.5px 2.5px black);
   transform: scaleY(1.05);
   transform-origin: top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 div.fg {
   background-image: repeating-linear-gradient(
@@ -67,6 +78,12 @@ div.fg {
   );
   color: #1e2127;
   transform: scale(1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 h3.home-subheading {
@@ -81,19 +98,40 @@ h3.home-subheading {
   max-width: fit-content;
   align-self: center;
   justify-self: center;
-  padding: 10px;
-  margin: 10px;
+  padding: 2px;
   height: max-content;
   display: flex;
-  margin-block-start: revert;
-  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-bottom: 0;
+  font-size: 2rem;
 }
 
-div.header-container {
+div.home-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  padding: 5px;
+}
+img#cartoon-img {
+  height: 360px;
+  width: 280px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+div {
+  display: flex;
 }

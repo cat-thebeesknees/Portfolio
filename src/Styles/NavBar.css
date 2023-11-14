@@ -12,9 +12,13 @@ nav#navlinks {
 }
 
 div.nav-link {
-  color: rgb(72, 202, 228);
+  
+  color: floralwhite;
 }
 
 a {
-  color: rgb(72, 202, 228);
+  color: floralwhite;
+  font-size: 1rem;
+  text-shadow: 1px 1px 1px black;
+  font-weight: bold;
 }
