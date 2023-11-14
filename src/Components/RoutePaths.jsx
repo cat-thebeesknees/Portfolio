@@ -10,8 +10,7 @@ import Profile from "./Me";
 const RoutePaths = () => {
   return (
   <>
-  <div className="route-container">
-<div id="route-section">
+  
   <Routes>
     <Route path="/" element={<Home />} />
     <Route path="/about" element={<About />} />
@@ -21,9 +20,7 @@ const RoutePaths = () => {
     <Route path="me" element={<Profile />} />
     <Route path="*" element={<NotFound />} />
   </Routes>
-</div>
 
-  </div>
   </>
   );  
 };
