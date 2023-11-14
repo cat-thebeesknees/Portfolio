@@ -6,9 +6,10 @@ p.personal-quote {
 }
 
 p.about-paragraph {
-  color: rgb(109, 142, 160);
+  color: lightgoldenrodyellow;
+  text-shadow: 1px 1px 1px chocolate;
   padding: 20px;
-  font-size: 1.35rem;
+  font-size: 1.5rem;
 
 /* font-family: 'Delius', cursive; */
 
@@ -17,4 +18,9 @@ font-family: 'Mali', cursive;
 } 
 div.gallery {
   display: flex;
+}
+div.photo-container {
+  display: flex;
+  padding: 10px;
+  margin: 20px;
 }

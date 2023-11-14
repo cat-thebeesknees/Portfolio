@@ -1,12 +1,14 @@
 img#logo-img {
   display: grid;
   place-self: start start;
+  border: solid 3px white;
 }
 
 #img-logo {
   img {
     width: 210;
     height: 180;
+    
   }
 }
 
