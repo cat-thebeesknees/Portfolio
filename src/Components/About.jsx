@@ -27,23 +27,22 @@ const About = () => {
           <br />
           Okay, cool.
           <br />
-          What I often hear people say about me is that I am magnetic.
+          I&apos;ve often been described as possessing a magnetic personality,
+          with a natural inclination to see the positive side of situations, and
+          a firm belief in the inherent goodness of others.
           <br />
-          I naturally see the posititve side of things, and believe in the
-          goodness of others.
+          My strengths lie in adaptability, dependability, and a strong
+          commitment to integrity—values I take pride in upholding. I consider
+          active listening a superpower, as it enables me to create an
+          environment of trust and open communication. I specialize in providing
+          uncritical acceptance, fostering an atmosphere where diverse
+          perspectives are valued.
           <br />
-          I love when people feel comfortable sharing their perspectives,
-          it&apos;s an opportunity to understand concepts and solutions I
-          didn&apos;t consider.
-          <br />
-          Offering uncritical acceptance, leaves room to build trust and learn
-          from one another.
-          <br />
-          Just imagine what can be accomplished when we have access to the
-          unfiltered knowledge of everyone on the team.
-          <br />
-          I&apos;ve learned to better handle critisim. If it stings a bit to
-          hear it, I know it&apos;s because there&apos;s truth to it.
+          I believe true success is leveraging the collective knowledge of the team.
+          Just imagine the possibilities that arise when we tap into
+          the unfiltered wisdom of each team member. I am excited about the
+          prospect of contributing to a collaborative and innovative work
+          environment, where mutual respect and shared knowledge drive our success.
           <br />
         </p>
       </div>
