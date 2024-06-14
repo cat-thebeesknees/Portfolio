@@ -21,7 +21,7 @@ p.home-paragraph {
 
 .wrapper {
   background: rgb(0, 17, 28);
-  /* background: radial-gradient(#272727, #1b1b1b); */
+  
   display: grid;
   grid-template-areas: "overlap";
   place-content: center;
@@ -33,7 +33,8 @@ p.home-paragraph {
   justify-self: center;
   padding: 10px;
   align-content: space-around;
-  height: 100%;
+ 
+  
 }
 .wrapper > div {
   -webkit-background-clip: text;
