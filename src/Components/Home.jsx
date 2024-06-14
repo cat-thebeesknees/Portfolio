@@ -11,9 +11,10 @@ const Home = () => {
       <NavBar />
       <div className="home-container">
         <div className="wrapper">
-          <div className="bg"> Catherine Hilton</div>
 
-          <div className="fg"> Catherine Hilton </div>
+          <div className="bg">Catherine Hilton</div>
+
+          <div className="fg">Catherine Hilton</div>
         </div>
 
         <img id="cartoon-img" src={Cartoon} alt="Cartoon" />

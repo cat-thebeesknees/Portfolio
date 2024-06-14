@@ -1,3 +1,4 @@
+
 body {
   height: 100%;
   width: 100%;
@@ -9,7 +10,7 @@ p.home-paragraph {
   margin: 10px;
   font-size: 1.5em;
   font-family: "Kavivanar", cursive;
-  text-shadow: 1px 1px black;
+  text-shadow:3px 3px 3px darkmagenta;
 }
 
 :root {
@@ -31,7 +32,6 @@ p.home-paragraph {
   align-self: center;
   justify-self: center;
   padding: 10px;
-  /* margin-bottom: 10px; */
   align-content: space-around;
   height: 100%;
 }
@@ -122,7 +122,6 @@ div.home-container {
 img#cartoon-img {
   height: 360px;
   width: 280px;
-  padding: 5px;
   margin: 5px;
   border-radius: 5%;
   display: flex;
@@ -131,6 +130,7 @@ img#cartoon-img {
   align-content: center;
   flex-wrap: wrap;
   flex-direction: row;
+  border: solid 3px white;
 }
 div {
   display: flex;
