@@ -45,6 +45,13 @@ const About = () => {
           environment, where mutual respect and shared knowledge drive our success.
           <br />
         </p>
+        <p className="hobbies-paragraph">
+        <br />
+         </p>
+         <p className="code-paragraph">
+          <br />
+         </p>
+
       </div>
     </>
   );
