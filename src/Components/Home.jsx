@@ -23,7 +23,7 @@ const Home = () => {
       <p className="home-paragraph">
         &ldquo; Remember that when you take your first step into the life of
         your dreams, the first thing to meet you there will be fear.
-        <br />
+        
         Nod.
         <br />
         Keep walking.&rdquo;

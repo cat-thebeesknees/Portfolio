@@ -8,7 +8,7 @@ function Header() {
   return (
     <>
     <div className="header-container">
-     <img id="logo-img" src={logo} alt="Logo" width={210} height={180} />
+     <img id="logo-img" src={logo} alt="Logo" />
      <Socials />
      </div>
      </>
