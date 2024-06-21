@@ -2,11 +2,11 @@ import Header from "./Header";
 
 import NavBar from "./NavBar";
 import "../Styles/Projects.css";
-import react from "../assets/react.png";
-import mcj from "../assets/mcj.png";
-import paint from "../assets/paint.png";
-import list from "../assets/list.png";
-import first from "../assets/first.png";
+import react from "../Images/react.png";
+import mcj from "../Images/mcj.png";
+import paint from "../Images/paint.png";
+import list from "../Images/list.png";
+import first from "../Images/first.png";
 const Projects = () => {
   return (
     <>
