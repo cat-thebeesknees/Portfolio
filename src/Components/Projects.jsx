@@ -103,15 +103,19 @@ const Projects = () => {
       <a href="https://cat-react-router.netlify.app/">
         <img src={react} alt="react" />
       </a>
+      <p>This application was a group assignment. We were learning how to use JavaScript to create action functions.</p>
       <a href="https://cats-strangers-things.netlify.app/">
         <img src={mcj} alt="mcj" />
       </a>
+      <p>This is a simple page to display color choices for the user.</p>
       <a href="https://color-picker-cat.netlify.app/">
         <img src={paint} alt="paint" />
       </a>
+      <p>For this project I used an API stored in a local file to pull the data.</p>
       <a href="https://cat-contact-list.netlify.app">
       <img src={list} alt="list" />
       </a>
+      <p>A very basic project done at the start of my course.</p>
       <a href="https://puppy-pals-cat.netlify.app/">
         <img src={first} alt="first" />
       </a>
