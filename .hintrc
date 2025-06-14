@@ -8,7 +8,9 @@
       {
         "ignore": [
           "font-synthesis",
-          "text-size-adjust"
+          "text-size-adjust",
+          "min-width: fit-content",
+          "user-select"
         ]
       }
     ]

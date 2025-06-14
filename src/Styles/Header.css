@@ -1,24 +1,11 @@
 img#logo-img {
   display: grid;
-  place-self: start start;
   border: solid 3px white;
+  place-self: center;
+  width: 280;
+  height: 180;
 }
 
-#img-logo {
-  img {
-    width: 280;
-    height: 180;
-    
-  }
-}
-
-div {
-  display: grid;
-}
-
-div#logo-img {
-  max-width: max-content;
-}
 
 div.header-container {
   display: flex;
@@ -27,4 +14,12 @@ div.header-container {
   align-content: center;
   justify-content: space-between;
   align-items: center;
+  max-width: 100%;
+  margin: 2rem;
+}
+
+@media (max-width: 480px) {
+  div.header-container {
+    justify-content: center;
+  }
 }
