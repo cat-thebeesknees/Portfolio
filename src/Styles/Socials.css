@@ -6,8 +6,6 @@ ul.socials li {
   vertical-align: top;
   flex-direction: column;
   padding: 5px;
-  margin: 5px;
-  /* float: right; */
 }
 
 .bi {
@@ -44,9 +42,14 @@ ul.socials li {
   color: royalblue;
 }
 
+.bi-envelope {
+  position: relative;
+  color: coral;
+}
+
 a:hover,
 a:active {
-  background-color: darkred;
+  background-color: black;
   color: white;
 }
 
@@ -60,13 +63,8 @@ ul.socials {
   padding-left: 0;
   padding-bottom: 0;
 }
+
 div#socials-container {
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  align-self: center;
-  justify-self: center;
-}
-div.socials-container {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -79,13 +77,15 @@ div.socials-container {
   justify-self: center;
   place-self: flex-end;
 }
-ul {
-  padding-inline-start: 0;
-  margin-block-start: 0;
-}
-a {
-  position: inherit;
-}
-i {
-  text-align: webkit-match-parent;
+
+@media (max-width: 480px) {
+  #socials-container ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  ul.socials {
+    display: flex;
+  }
 }

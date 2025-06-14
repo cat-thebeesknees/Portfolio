@@ -1,43 +1,33 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "../Styles/NavBar.css";
 
 const NavBar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <>
-      
-        <nav id="navlinks">
-          <ul id="navUl" style={{ listStyle: "none", padding: 5 }}>
-            <div className="nav-link">
-              <li id="home-li">
-                <Link to="/" className="home-link">
-                  Home
-                </Link>
-              </li>
-            </div>
-            <div className="nav-link">
-              <li id="about-li">
-                <Link to="/about" className="about-link">
-                  About
-                </Link>
-              </li>
-            </div>
-            <div className="nav-link">
-              <li id="projects-li">
-                <Link to="/projects" className="projects-link">
-                  Projects
-                </Link>
-              </li>
-            </div>
-            <div className="nav-link">
-              <li id="contact-li">
-                <Link to="/contact" className="contact-link">
-                  Contact
-                </Link>
-              </li>
-            </div>
-          </ul>
-        </nav>
-      
+          <nav id="navlinks">
+      <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+        <div className={`bar ${menuOpen ? "open" : ""}`} />
+        <div className={`bar ${menuOpen ? "open" : ""}`} />
+        <div className={`bar ${menuOpen ? "open" : ""}`} />
+      </div>
+
+      <ul id="navUl" className={menuOpen ? "open" : ""}>
+        <li className="nav-link">
+          <Link to="/" onClick={() => setMenuOpen(false)}>Home</Link>
+        </li>
+        <li className="nav-link">
+          <Link to="/about" onClick={() => setMenuOpen(false)}>About</Link>
+        </li>
+        <li className="nav-link">
+          <Link to="/projects" onClick={() => setMenuOpen(false)}>Projects</Link>
+        </li>
+        <li className="nav-link">
+          <Link to="/reviews" onClick={() => setMenuOpen(false)}>Resume & Reviews</Link>
+        </li>
+      </ul>
+    </nav>
     </>
   );
 };
